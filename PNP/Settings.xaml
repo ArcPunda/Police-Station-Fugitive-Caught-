@@ -1,0 +1,16 @@
+﻿<Window x:Class="PNP.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PNP"
+        mc:Ignorable="d"
+        Title="Settings" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="Filepathers" HorizontalAlignment="Left" Height="32" Margin="157,105,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="385" FontSize="16"/>
+        <Button x:Name="Selecting" Content="change" HorizontalAlignment="Left" Height="31" Margin="547,105,0,0" VerticalAlignment="Top" Width="88" FontWeight="Normal" Click="Selecting_Click"/>
+        <Label Content="Local Data" HorizontalAlignment="Left" Margin="57,102,0,0" VerticalAlignment="Top" FontSize="17" Width="95"/>
+        <Button x:Name="Back" Content="Go Back" HorizontalAlignment="Left" Height="36" Margin="547,359,0,0" VerticalAlignment="Top" Width="205" FontSize="17" FontWeight="Bold" Click="Back_Click"/>
+
+    </Grid>
+</Window>

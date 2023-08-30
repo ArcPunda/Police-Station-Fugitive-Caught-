@@ -1,0 +1,16 @@
+﻿<Window x:Class="PNP.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PNP"
+        mc:Ignorable="d"
+        Title="PoliceStation" Height="334" Width="800">
+    <Grid>
+        <Button x:Name="Register" Content="Register New Inmate" HorizontalAlignment="Left" Height="65" Margin="421,39,0,0" VerticalAlignment="Top" Width="330" FontSize="27" FontWeight="Bold" Click="Register_Click"/>
+        <Button x:Name="View" Content="View/Update Inmate" HorizontalAlignment="Left" Height="66" Margin="421,121,0,0" VerticalAlignment="Top" Width="330" FontSize="27" FontWeight="Bold" Click="Button_Click"/>
+        <Button x:Name="Setttings" Content="Settings" HorizontalAlignment="Left" Height="65" Margin="421,199,0,0" VerticalAlignment="Top" Width="330" FontSize="27" FontWeight="Bold" Click="Setttings_Click"/>
+        <Image HorizontalAlignment="Left" Height="294" Margin="24,14,0,0" VerticalAlignment="Top" Width="405" Source="/Police.png" IsHitTestVisible="False"/>
+
+    </Grid>
+</Window>
